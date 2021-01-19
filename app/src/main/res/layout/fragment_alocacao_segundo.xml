@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#Ffffff"
+    tools:context=".app_pos_login.ui.FragmentsPosLogin.Alocacao.AlocacaoSegundo">
+
+    <ImageView
+        android:id="@+id/img_superf"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:src="@drawable/superf"
+        app:layout_constraintBottom_toTopOf="@+id/btn_proximo_aloca"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_megaf"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:src="@drawable/mega"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_proximo_aloca" />
+
+    <Button
+        android:id="@+id/btn_proximo_aloca"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/concluir_aloc_buttonstyle"
+        android:text="Confirmar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/rad_megaf"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:background="@drawable/youtbuttonbackground"
+        android:button="@drawable/youtbuttonbackground"
+        android:checked="false"
+        app:layout_constraintBottom_toBottomOf="@+id/img_megaf"
+        app:layout_constraintEnd_toEndOf="@+id/img_megaf"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/img_megaf"
+        app:layout_constraintTop_toTopOf="@+id/img_megaf"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <RadioButton
+        android:id="@+id/rad_superf"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:background="@drawable/youtbuttonbackground"
+        android:button="@drawable/youtbuttonbackground"
+        android:checked="false"
+        app:layout_constraintBottom_toBottomOf="@+id/img_superf"
+        app:layout_constraintEnd_toEndOf="@+id/img_superf"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/img_superf"
+        app:layout_constraintTop_toTopOf="@+id/img_superf"
+        app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <View
+        android:id="@+id/diviser"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AnimLottie"
+        app:layout_constraintVertical_bias="0.124"></View>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/AnimLottie"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="party.json"
+        app:lottie_loop="true" />
+
+    <TextView
+        android:id="@+id/tv_alocacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A sua locação foi confirmada"
+        android:textColor="@color/TextColor"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/AnimLottie"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/tv_alocacao2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agora é só curtir!"
+        android:textColor="@color/TextColor"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/diviser"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.868"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AnimLottie"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button_cancela_aloc"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/yellow_button_style"
+        android:enabled="true"
+        android:text="Cancelar alocação"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_desc_aloc"
+        app:layout_constraintVertical_bias="0.613" />
+
+    <TextView
+        android:id="@+id/tv_desc_aloc"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="A sua [Tipo] festa esta chegando! \n\nMarcado para o dia: [dia]\n\nNão se esqueça de convidar os seus [quantidade] amigos!"
+        android:textColor="@color/TextColor"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/diviser"
+        app:layout_constraintStart_toStartOf="@+id/diviser"
+        app:layout_constraintTop_toBottomOf="@+id/diviser" />
+
+    <TextView
+        android:id="@+id/tv_explicacao2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="*Alocações não podem ser canceladas após atingirem a proximidade de 3 (três) dias do prazo final"
+        android:textAlignment="center"
+        android:textColor="@color/TextColor"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_cancela_aloc"
+        app:layout_constraintVertical_bias="0.195" />
+</androidx.constraintlayout.widget.ConstraintLayout>

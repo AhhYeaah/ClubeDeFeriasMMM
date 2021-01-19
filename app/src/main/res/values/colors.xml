@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF5733</color>
+    <color name="colorPrimaryDark">#FFC300</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="colorSplash">#1F271B</color>
+    <color name="UpGradLogin">#ACCD17</color>
+    <color name="buttonyellow">#ffc800</color>
+    <color name="TextColor">#364007</color>
+    <color name="verde">#4CAF50</color>
+    <color name="DownGradLogin">#364007</color>
+</resources>

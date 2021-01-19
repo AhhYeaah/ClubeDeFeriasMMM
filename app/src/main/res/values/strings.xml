@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Clube MMM</string>
+
+    <string name="prompt_name">Name</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">Welcome  </string>
+    <string name="invalid_username">Please, type a valid Email</string>
+    <string name="invalid_password">Password must be >3 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="registrar">ou registre-se aqui</string>
+    <string name="title_activity_tela_aplicativo">TelaAplicativo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_carteirinha">Carteirinha digital</string>
+    <string name="menu_alocacao">Alocação de salão</string>
+    <string name="title_activity_cadastro_acitivity">CadastroAcitivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logout">Logout</string>
+    <string name="confirmacao_fechar">Pressione novamente para sair</string>
+
+    <!-- Tela de alerta para sair -->
+    <string name="Alert_sair">Tem certeza que deseja sair da conta?</string>
+    <string name="Alert_titulo">Saindo...</string>
+    <string name="Sim">Sim</string>
+    <string name="Nao">Não</string>
+    <string name="check_text_titulo">Antes de se cadastrar \n conte nos mais sobre você</string>
+    <string name="digite_carteirinha">Digite o numero da sua carteirinha</string>
+    <string name="prosseguir">Prosseguir</string>
+    <string name="digite_cpf">Digite o seu CPF</string>
+
+</resources>
